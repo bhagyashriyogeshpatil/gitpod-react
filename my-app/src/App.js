@@ -5,7 +5,8 @@ import FunctionalGreetingWithProps from "./components/FunctionalGreetingWithProp
 import StatefulGreeting from './components/StatefulGreeting';
 import StatefulGreetingWithCallback from "./components/StatefulGreetingWithCallback";
 import StatefulGreetingWithPrevState from "./components/StatefulGreetingWIthPrevState";
-
+import EventsClass from "./components/EventsClass";
+import EventsFunctional from "./components/EventsFunctional";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       {/* <FunctionalGreetingWithProps greeting="Nice to meet you!" name="Mike" age="32"/> */}
       {/* <StatefulGreeting greeting="I'm a stateful class component!" name="Mike"/>  */}
       {/* <StatefulGreetingWithCallback />     */}
-      <StatefulGreetingWithPrevState />
+      {/* <StatefulGreetingWithPrevState /> */}
+      <EventsFunctional />
+      <EventsClass />
     </div>
   );
 }
